@@ -17,7 +17,7 @@ export const navItems = [
   ];
 
 //Home
-export const homeText =["I`m","Subham","Das"];
+export const homeText =["I`m","Subham Das","Web Devloper"];
 //About
 export const aboutContent={
     heading:"ABOUT ME",

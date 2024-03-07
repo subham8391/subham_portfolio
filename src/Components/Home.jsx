@@ -12,7 +12,7 @@ function Home() {
                 </div>
                 <div className="hitems col-span-6 bg-black flex flex-col leading-[130px] items-start pt-[8rem]">
                 {homeText.map((text, index) => (
-                        <span key={index} className='text-white text-[130px] font-bold'>{text}</span>
+                        <span key={index} className='text-white text-[80px] font-bold'>{text}</span>
                     ))}
                 </div>
             </div>
