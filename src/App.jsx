@@ -1,13 +1,17 @@
 import { useState } from 'react'
 import Navbar from './Components/Navbar'
+import Home from './Components/Home'
+import About from './Components/About'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <div className='main bg-slate-800 h-[200vh]'>
-        <Navbar />
+    <Navbar />
+      <div className='main '>
+        <Home />
+        <About />
       </div>
     </>
   )
