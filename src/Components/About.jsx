@@ -13,7 +13,7 @@ function About() {
     document.body.removeChild(link);
   };
   return (
-    <div className='aboutContainer h-[100vh] w-[100%]'>
+    <div className='aboutContainer fadein-animation h-[100vh] w-[100%]'>
     <div className="aboutSection grid sm:grid-cols-12 h-[100%]">
       <div className="aitems col-span-1 bg-black"></div>
       <div className="aitems col-span-4 flex justify-center items-center "><div className="apimg h-[80vh] w-[100%] flex justify-center relative"><img src={Myimg2} className='fadein-animation h-[100%]' alt="" /> <div className='shadow absolute w-[100%] h-[100%]'></div><div className='vshadow absolute w-[100%] h-[100%]'></div></div></div>

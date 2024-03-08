@@ -2,6 +2,9 @@ import { BrowserRouter as Router,Route,Routes} from 'react-router-dom';
 import Navbar from './Components/Navbar'
 import Home from './Components/Home'
 import About from './Components/About'
+import Education from './Components/Education';
+import Experience from './Components/Experience';
+import Skills from './Components/Skills';
 import './App.css'
 
 function App() {
@@ -14,6 +17,9 @@ function App() {
       <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About/>} />
+            <Route path='/education' element={<Education/>} />
+            <Route path='/experience' element={<Experience/>} />
+            <Route path='/skills' element={<Skills/>} />
           </Routes>
       </div>
         </Router>
