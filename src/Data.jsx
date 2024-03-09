@@ -1,5 +1,5 @@
 //Navbar
-import { FaHome ,FaCode} from 'react-icons/fa';
+import { FaHome ,FaCode,FaGithub} from 'react-icons/fa';
 import { MdDescription, MdSchool } from 'react-icons/md';
 import { BsPersonWorkspace } from 'react-icons/bs';
 import { GiSkills } from 'react-icons/gi';
@@ -45,11 +45,11 @@ export const SkillsContent=[
 
   
 // } from 'react-icons/fa';
-import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
-import Work1 from './assets/project-1.jpeg';
+import { FiFileText, FiExternalLink } from 'react-icons/fi';
+import Work1 from './assets/project-1.jpg';
 import Work2 from './assets/project-2.jpg';
-import Work3 from './assets/project-3.jpeg';
-import Work4 from './assets/project-4.jpeg';
+import Work3 from './assets/project-3.jpg';
+import Work4 from './assets/project-4.jpg';
 import Work5 from './assets/project-5.jpg';
 import Work6 from './assets/project-6.jpg';
 
@@ -65,19 +65,19 @@ export const portfolio = [
         desc: 'ZEE5',
       },
       {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        icon: <FaGithub />,
+        title: 'GitHub : ',
+        desc: 'https://github.com/subham8391/Zee5.git',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'React JS',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'zee5-vcys.vercel.app',
+        desc: 'zee5-vcys',
         link: 'https://zee5-vcys.vercel.app/'
       },
     ],
@@ -94,9 +94,9 @@ export const portfolio = [
         desc: 'BEYOUNG',
       },
       {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        icon: <FaGithub />,
+        title: 'GitHub : ',
+        desc: 'https://github.com/subham8391/Beyoung_App.git',
       },
       {
         icon: <FaCode />,
@@ -106,7 +106,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'beyoung-app.vercel.app',
+        desc: 'beyoung-app',
         link: 'https://beyoung-app.vercel.app/'
       },
     ],
@@ -123,19 +123,19 @@ export const portfolio = [
         desc: 'SILVER SCREEN',
       },
       {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        icon: <FaGithub />,
+        title: 'GitHub : ',
+        desc: 'https://github.com/subham8391/TMD_Movie.git',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'React JS',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'silver-screen-sigma',
+        desc: 'silver-screen',
         link:'https://silver-screen-sigma.vercel.app/'
       },
     ],
@@ -152,14 +152,14 @@ export const portfolio = [
         desc: 'Video',
       },
       {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        icon: <FaGithub />,
+        title: 'GitHub : ',
+        desc: 'https://github.com/subham8391/Photo_Gallery_App.git',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'HTML,CSS,JS'
       },
       {
         icon: <FiExternalLink />,
@@ -180,12 +180,12 @@ export const portfolio = [
         desc: 'POKEMON KINGDOM',
       },
       {
-        title: 'Client : ',
-        desc: 'Dribble',
+        title: 'GitHub : ',
+        desc: 'https://github.com/subham8391/Pokemon_Kingdom.git',
       },
       {
         title: 'Language : ',
-        desc: 'React JS, Node JS',
+        desc: 'React JS',
       },
       {
         title: 'Preview : ',
@@ -206,14 +206,14 @@ export const portfolio = [
         desc: 'Fire Fly',
       },
       {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        icon: <FaGithub />,
+        title: 'GitHub : ',
+        desc: 'https://github.com/subham8391/FireFly.git',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'React JS',
       },
       {
         icon: <FiExternalLink />,
