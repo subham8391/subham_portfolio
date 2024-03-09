@@ -241,3 +241,39 @@ body {
     height: 21.875rem;
     object-fit: cover;
 }
+
+
+/* Contact */
+
+.from__input-group{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1.875rem;
+}
+.form__input-div{
+    margin-bottom: 1.875rem;
+}
+.form__control{
+    border: 1px solid gray;
+    background-color: white;
+    color: gray;
+    width: 100%;
+    padding: .75rem 1.5rem;
+    border-radius: 1.875rem;
+    font-size: 18px;
+    transition: all 0.s ease;
+}
+.form__control:focus{
+    border-color: var(--first-color);
+}
+.textarea{
+    resize: none;
+    height: 10rem;
+}
+
+/* frosted glass background color */
+.cshadow{
+-webkit-backdrop-filter: blur(8px); 
+backdrop-filter: blur(4px); 
+box-shadow: inset 0 0 0 200px rgba(0, 0, 0, 0.491);
+}

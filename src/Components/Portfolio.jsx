@@ -12,7 +12,7 @@ function Portfolio() {
         </div>
       </div>
         <div className="PortfolioSection fadein-animation w-[100%] flex justify-center items-center">
-        <div className="portfolio__container grid gap-[1.875rem] max-w-[71.25rem] mi">
+        <div className="portfolio__container grid gap-[1.875rem] max-w-[71.25rem] ">
         {portfolio.map((item)=>{
           return <Portfolioitms key={item.id} {...item}/>
         })}

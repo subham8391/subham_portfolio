@@ -224,3 +224,14 @@ export const portfolio = [
     ],
   },
 ];
+
+
+import conImg1 from './assets/contact1.jpg';
+import conImg2 from './assets/contact2.jpg';
+import conImg3 from './assets/contact3.jpg';
+
+export const ContactData=[
+  {img:conImg1,type:'Phone',con1:'+91 6295736014',con2:'+91 7295636714'},
+  {img:conImg2,type:'Email',con1:'subhamdas123@gmail.com',con2:'subhamdas34@gmail.com'},
+  {img:conImg3,type:'Address',con1:'Keshrambha,Dantan',con2:'Paschim Medinipur,West Bengal,721451'},
+]
