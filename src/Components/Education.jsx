@@ -10,7 +10,7 @@ function Education() {
                     <span className='text-red-500 font-bold'>LEARNING</span>
                 </div>
             </div>
-            <div className="educationSection w-[100%] h-auto flex flex-col gap-2 p-5 text-white overflow-x-hidden">
+            <div className="educationSection w-[100%] h-auto flex flex-col gap-2 pl-10 pr-10 pb-5 text-white overflow-x-hidden">
                 <div className="LToR-fadein-animation edu grid sm:grid-cols-12 w-[100%] h-auto gap-2">
                     <div className="eduItm col-span-4  text-right">
                         <h1 className='text-[20px] font-bold'>NEWTON SCHOOL</h1>

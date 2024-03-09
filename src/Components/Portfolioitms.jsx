@@ -25,7 +25,7 @@ const Portfolioitms = ({img,title,details}) => {
                                         <div>
                                             <span className="item__title">{title}</span>
                                             {title === 'Preview : ' ? (
-                                                <a href={link} className="item__details">
+                                                <a href={link} className="item__details"target="_blank" >
                                                     {desc}
                                                 </a>
                                             ) : (
