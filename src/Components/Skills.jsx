@@ -1,5 +1,6 @@
 import React from 'react'
 import ProgressBar from './ProgressBar'
+import { SkillsContent } from '../Data'
 function Skills() {
   return (
     <div className='SkillsContainer'>
@@ -10,9 +11,13 @@ function Skills() {
           <span className='text-red-500 font-bold'>EXPERT IN</span>
         </div>
       </div>
-        <div className="SkillsSection">
-        <ProgressBar targetProgress={50} />
-        </div>
+      <div className="SkillsSection grid grid-cols-4 gap-4 pl-20 pr-20">
+        {SkillsContent.map((data,index)=>(
+          <div className="skillGrid" key={index} >
+            <ProgressBar targetProgress={data.Percentage} skillName={data.skill} />
+          </div>
+        ))}
+      </div>
     </div>
   )
 }
