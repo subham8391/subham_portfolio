@@ -51,7 +51,12 @@ body {
 .navb li{
   cursor: pointer;
 }
-
+.homeshadow{
+	background: linear-gradient(to bottom right, rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%,rgba(5, 5, 5, 0.733) 75%, rgb(0, 0, 0) 100%);
+}
+.homevshadow{
+	background: linear-gradient(to top, rgb(0, 0, 0) 0%,rgba(10, 0, 0, 0.427) 25%, rgba(0, 0, 0, 0) 50%,rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0) 100%);
+}
 /* Fade in animation */
 .fadein-animation {
     animation: fadeIn 1.5s ease-in-out forwards;
